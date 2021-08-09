@@ -11,8 +11,8 @@ INSERT INTO m_user (
 	, department_id
 	, role
 ) VALUES 
-('system@co.jp', 'password', 'システム管理者', '2000-01-01', 21, 1, 1, 'ROLE_ADMIN')
-, ('user@co.jp', 'password', 'ユーザー１', '2000-01-01', 21, 2, 2, 'ROLE_GENERAL')
+('system@co.jp', '$2a$10$iCr3teCcceGT0QUu54LGW.WLEdztGIJLvuZXGI9HJXTaJW73RNaiO', 'システム管理者', '2000-01-01', 21, 1, 1, 'ROLE_ADMIN')
+, ('user@co.jp', '$2a$10$iCr3teCcceGT0QUu54LGW.WLEdztGIJLvuZXGI9HJXTaJW73RNaiO', 'ユーザー１', '2000-01-01', 21, 2, 2, 'ROLE_GENERAL')
 ;
 
 INSERT INTO m_department (
